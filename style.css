@@ -1,0 +1,16 @@
+/*Clear all the space and margin*/
+body{
+ margin:0; padding:0; box-sizing:border-box; 
+}
+/*As per req added header color,padding and background color*/
+header{
+	color: white;
+	padding: 20px;
+	background:green;
+}
+/* Anything Smaller than 450px background change to blue  */
+@media (max-width: 450px) {
+    header {
+        background:blue;
+    }
+}
